@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://drec8x3q1xam4"]
+
+[ext_resource type="Script" path="res://scripts/procedural/ProceduralRecorder.gd" id="1_rec"]
+
+[node name="VintageRecorder" type="Node3D"]
+script = ExtResource("1_rec")

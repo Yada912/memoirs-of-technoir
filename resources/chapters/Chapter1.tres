@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ChapterData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/ChapterData.gd" id="1_data"]
+[ext_resource type="PackedScene" path="res://scenes/objects/VintageRecorder.tscn" id="2_rec"]
+
+[resource]
+script = ExtResource("1_data")
+chapter_id = "chapter_1"
+chapter_number = 1
+chapter_title = "Chapter 1 - The Voicemail"
+subtitle = "where the Voice Lingers"
+device_name = "Vintage Cassette Voice Recorder (1979)"
+objective_text = "Unfasten 4 chassis screws with the screwdriver, open the cassette compartment, clean oxide dust off the magnetic playback head with the cleaning brush, then reassemble and press PLAY."
+target_model_scene = ExtResource("2_rec")
+ambient_light_color = Color(0.12, 0.11, 0.15, 1)
+lamp_color = Color(1, 0.86, 0.65, 1)
+lamp_energy = 3.6
+workbench_wood_color = Color(0.24, 0.17, 0.13, 1)
+bgm_preset = "late_night_lofi"
+narrative_panels = [{
+"bg_tone": Color(0.05, 0.06, 0.09, 1),
+"mood": "solitude",
+"paragraphs": ["Di pojok meja kerja yang temaram...", "sebuah tape recorder tua tergeletak bisu di atas cutting mat.", "Kaset pita di dalamnya menyimpan rekaman suara terakhir yang belum sempat didengar."],
+"title": "Prologue : The Unheard Tape"
+}, {
+"bg_tone": Color(0.08, 0.07, 0.11, 1),
+"mood": "nostalgia",
+"paragraphs": ["Mekanisme pemutar pita terjepit oleh debu oksida kecokelatan.", "Baut penutupnya berkarat termakan waktu, namun tulisan tangan di label kaset itu masih terbaca: 'Memoirs - 1979'."],
+"title": "Jejak Pita Magnetik"
+}, {
+"bg_tone": Color(0.12, 0.09, 0.12, 1),
+"mood": "determination",
+"paragraphs": ["Dengan obeng dan kuas pembersih di tangan...", "\"Malam ini, aku akan memperbaiki pemutar pita ini dan mendengarkan suaramu sekali lagi.\""],
+"title": "Memperbaiki Kenangan"
+}]

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ChapterData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/ChapterData.gd" id="1_data"]
+[ext_resource type="PackedScene" path="res://scenes/objects/VintageFan.tscn" id="2_fan"]
+
+[resource]
+script = ExtResource("1_data")
+chapter_id = "chapter_2"
+chapter_number = 2
+chapter_title = "Chapter 2 - Midnight Breeze"
+subtitle = "where the Silence Lives"
+device_name = "Vintage Technoir Desk Fan (1978)"
+objective_text = "Unfasten 4 cage screws with the screwdriver, remove the front cage and blades, clean the seized motor bearing with the cleaning brush, then reassemble and test run."
+target_model_scene = ExtResource("2_fan")
+ambient_light_color = Color(0.10, 0.12, 0.18, 1)
+lamp_color = Color(1, 0.88, 0.68, 1)
+lamp_energy = 3.6
+workbench_wood_color = Color(0.24, 0.17, 0.13, 1)
+bgm_preset = "late_night_lofi"
+narrative_panels = [{
+"bg_tone": Color(0.05, 0.06, 0.09, 1),
+"mood": "solitude",
+"paragraphs": ["Malam semakin larut...", "udara kamar terasa hangat dan gerah.", "Kipas meja peninggalan kakek yang teronggok di sudut kini menunggu untuk disembuhkan."],
+"title": "Breeze of the Past"
+}, {
+"bg_tone": Color(0.08, 0.07, 0.11, 1),
+"mood": "nostalgia",
+"paragraphs": ["Bilah kuningan berkilau redup di balik jeruji besi berkarat.", "Bantalan motor macet oleh pelumas tua yang telah mengeras puluhan tahun."],
+"title": "Bantalan yang Kaku"
+}, {
+"bg_tone": Color(0.12, 0.09, 0.12, 1),
+"mood": "determination",
+"paragraphs": ["Bersihkan sisa gemuk tua dan pasang kembali jeruji pelindung.", "\"Hembusan angin sejuk itu akan berputar kembali malam ini.\""],
+"title": "Nafas Pertama"
+}]

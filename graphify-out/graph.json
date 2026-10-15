@@ -1,0 +1,490 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "README.md",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "readme.md",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme_memoirs_of_technoir",
+      "label": "memoirs-of-technoir",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "README.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "memoirs-of-technoir",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "res://scripts/controllers/WorkstationController.gd",
+      "label": "WorkstationController",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/controllers/WorkstationController.gd",
+      "file_type": "concept",
+      "norm_label": "workstationcontroller",
+      "summary": "Touch/mouse orbit camera, pinch-zoom, screen-space raycasting, and tray sorting dispatcher.",
+      "type": "controller"
+    },
+    {
+      "id": "res://scripts/controllers/WorkstationScene.gd",
+      "label": "WorkstationScene",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/controllers/WorkstationScene.gd",
+      "file_type": "concept",
+      "norm_label": "workstationscene",
+      "summary": "Late-night 3D workbench scene with 3200K warm lamp, wooden desk, 3-tiered shelf, and UI overlay.",
+      "type": "scene_controller"
+    },
+    {
+      "id": "res://scripts/core/PartNode.gd",
+      "label": "PartNode",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/core/PartNode.gd",
+      "file_type": "concept",
+      "norm_label": "partnode",
+      "summary": "Modular interactable 3D component with prerequisite enforcement, outline shader, and tray flight.",
+      "type": "class"
+    },
+    {
+      "id": "res://scripts/core/RepairableObject.gd",
+      "label": "RepairableObject",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/core/RepairableObject.gd",
+      "file_type": "concept",
+      "norm_label": "repairableobject",
+      "summary": "Base 3D machine coordinator managing part dependency graph, repair validation, and test run.",
+      "type": "class"
+    },
+    {
+      "id": "res://scripts/procedural/ProceduralFan.gd",
+      "label": "ProceduralFan",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/procedural/ProceduralFan.gd",
+      "file_type": "concept",
+      "norm_label": "proceduralfan",
+      "summary": "Programmatic 3D Vintage Desk Fan generator with cast iron base, wire cage, brass blades, and motor bearing.",
+      "type": "class"
+    },
+    {
+      "id": "res://scripts/singletons/ToolBeltManager.gd",
+      "label": "ToolBeltManager",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/singletons/ToolBeltManager.gd",
+      "file_type": "concept",
+      "norm_label": "toolbeltmanager",
+      "summary": "Active tool state manager (hand, screwdriver, cleaning brush, wrench).",
+      "type": "singleton"
+    },
+    {
+      "id": "res://scripts/ui/UI_Overlay.gd",
+      "label": "UI_Overlay",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://scripts/ui/UI_Overlay.gd",
+      "file_type": "concept",
+      "norm_label": "ui_overlay",
+      "summary": "Workstation HUD with parts tray status, floating comic/toolbox buttons, and notification toast.",
+      "type": "ui"
+    },
+    {
+      "id": "res://shaders/outline.gdshader",
+      "label": "OutlineShader",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "WorkstationController",
+      "file": "res://shaders/outline.gdshader",
+      "file_type": "concept",
+      "norm_label": "outlineshader",
+      "summary": "Inverted-hull silhouette outline shader optimized for Godot 4 Compatibility renderer.",
+      "type": "shader"
+    },
+    {
+      "id": "res://scripts/core/Main.gd",
+      "label": "Main",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/core/Main.gd",
+      "file_type": "concept",
+      "norm_label": "main",
+      "summary": "Master scene manager coordinating screen state transitions with cross-fade animations.",
+      "type": "class"
+    },
+    {
+      "id": "res://scripts/singletons/GameManager.gd",
+      "label": "GameManager",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/singletons/GameManager.gd",
+      "file_type": "concept",
+      "norm_label": "gamemanager",
+      "summary": "High-level state machine handling game states, chapter loading, and progression.",
+      "type": "singleton"
+    },
+    {
+      "id": "res://scripts/ui/ChapterSelect.gd",
+      "label": "ChapterSelect",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/ui/ChapterSelect.gd",
+      "file_type": "concept",
+      "norm_label": "chapterselect",
+      "summary": "Chapter carousel screen with scalloped vintage display card on wooden shelf.",
+      "type": "ui"
+    },
+    {
+      "id": "res://scripts/ui/HomeScene.gd",
+      "label": "HomeScene",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/ui/HomeScene.gd",
+      "file_type": "concept",
+      "norm_label": "homescene",
+      "summary": "Main menu screen matching Figma layout with Continue, Chapters, Gallery, and Settings.",
+      "type": "ui"
+    },
+    {
+      "id": "res://scripts/ui/StartScene.gd",
+      "label": "StartScene",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/ui/StartScene.gd",
+      "file_type": "concept",
+      "norm_label": "startscene",
+      "summary": "Initial title screen with gold cassette emblem and Start button.",
+      "type": "ui"
+    },
+    {
+      "id": "res://scripts/ui/StoryReader2D.gd",
+      "label": "StoryReader2D",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "Main",
+      "file": "res://scripts/ui/StoryReader2D.gd",
+      "file_type": "concept",
+      "norm_label": "storyreader2d",
+      "summary": "Vertical-scrolling webtoon comic reader with Indonesian narrative dialogue and 3D workbench entry.",
+      "type": "ui"
+    },
+    {
+      "id": "res://resources/chapters/Chapter1.tres",
+      "label": "Chapter1Resource",
+      "_origin": "semantic",
+      "community": 3,
+      "community_name": "ChapterData",
+      "file": "res://resources/chapters/Chapter1.tres",
+      "file_type": "concept",
+      "norm_label": "chapter1resource",
+      "summary": "Chapter 1 Prologue data resource specifying narrative panels and target vintage fan.",
+      "type": "data_asset"
+    },
+    {
+      "id": "res://scripts/data/ChapterData.gd",
+      "label": "ChapterData",
+      "_origin": "semantic",
+      "community": 3,
+      "community_name": "ChapterData",
+      "file": "res://scripts/data/ChapterData.gd",
+      "file_type": "concept",
+      "norm_label": "chapterdata",
+      "summary": "Decoupled Custom Resource for level definitions, webtoon comic panels, and lighting presets.",
+      "type": "resource"
+    },
+    {
+      "id": "res://scripts/audio/ProceduralAudio.gd",
+      "label": "ProceduralAudio",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "AudioManager",
+      "file": "res://scripts/audio/ProceduralAudio.gd",
+      "file_type": "concept",
+      "norm_label": "proceduralaudio",
+      "summary": "In-memory 16-bit PCM WAV synthesizer generating clicks, ratchets, clinks, hums, and chimes.",
+      "type": "utility"
+    },
+    {
+      "id": "res://scripts/singletons/AudioManager.gd",
+      "label": "AudioManager",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "AudioManager",
+      "file": "res://scripts/singletons/AudioManager.gd",
+      "file_type": "concept",
+      "norm_label": "audiomanager",
+      "summary": "Polyphonic procedural audio playback engine for SFX and looped vintage motor hum.",
+      "type": "singleton"
+    },
+    {
+      "id": "res://scripts/ui/TechnoirLogo.gd",
+      "label": "TechnoirLogo",
+      "_origin": "semantic",
+      "community": 5,
+      "community_name": "TechnoirLogo",
+      "file": "res://scripts/ui/TechnoirLogo.gd",
+      "file_type": "concept",
+      "norm_label": "technoirlogo",
+      "summary": "Procedural 2D vector drawing of the Memoirs of Technoir cassette reel emblem.",
+      "type": "ui_component"
+    },
+    {
+      "id": "res://scripts/ui/TopNavBar.gd",
+      "label": "TopNavBar",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "TopNavBar",
+      "file": "res://scripts/ui/TopNavBar.gd",
+      "file_type": "concept",
+      "norm_label": "topnavbar",
+      "summary": "Header bar with squircle back button, center Technoir emblem, and hamburger menu.",
+      "type": "ui_component"
+    },
+    {
+      "id": "res://scripts/ui/UIStyleHelper.gd",
+      "label": "UIStyleHelper",
+      "_origin": "semantic",
+      "community": 7,
+      "community_name": "UIStyleHelper",
+      "file": "res://scripts/ui/UIStyleHelper.gd",
+      "file_type": "concept",
+      "norm_label": "uistylehelper",
+      "summary": "Centralized design system tokens for gold (#b8861e) and dark slate buttons and cards.",
+      "type": "design_system"
+    }
+  ],
+  "links": [
+    {
+      "source": "readme",
+      "target": "readme_memoirs_of_technoir",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "res://scripts/core/PartNode.gd",
+      "target": "res://shaders/outline.gdshader",
+      "relation": "applies_shader",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationScene.gd",
+      "target": "res://scripts/ui/UI_Overlay.gd",
+      "relation": "binds_hud",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationController.gd",
+      "target": "res://scripts/singletons/ToolBeltManager.gd",
+      "relation": "checks_active_tool",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/procedural/ProceduralFan.gd",
+      "target": "res://scripts/core/PartNode.gd",
+      "relation": "constructs_parts",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationScene.gd",
+      "target": "res://scripts/procedural/ProceduralFan.gd",
+      "relation": "hosts_model",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/procedural/ProceduralFan.gd",
+      "target": "res://scripts/core/RepairableObject.gd",
+      "relation": "inherits",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://resources/chapters/Chapter1.tres",
+      "target": "res://scripts/data/ChapterData.gd",
+      "relation": "instance_of",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/controllers/WorkstationScene.gd",
+      "relation": "instantiates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/ui/ChapterSelect.gd",
+      "relation": "instantiates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/ui/HomeScene.gd",
+      "relation": "instantiates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/ui/StartScene.gd",
+      "relation": "instantiates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/ui/StoryReader2D.gd",
+      "relation": "instantiates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/Main.gd",
+      "target": "res://scripts/singletons/GameManager.gd",
+      "relation": "listens_to_state_changes",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/ChapterSelect.gd",
+      "target": "res://scripts/singletons/GameManager.gd",
+      "relation": "loads_selected_chapter",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationScene.gd",
+      "target": "res://scripts/controllers/WorkstationController.gd",
+      "relation": "manages",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationController.gd",
+      "target": "res://scripts/core/PartNode.gd",
+      "relation": "manipulates",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/HomeScene.gd",
+      "target": "res://scripts/singletons/GameManager.gd",
+      "relation": "navigates_to_chapters",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/StartScene.gd",
+      "target": "res://scripts/singletons/GameManager.gd",
+      "relation": "navigates_to_home",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/controllers/WorkstationController.gd",
+      "target": "res://scripts/core/RepairableObject.gd",
+      "relation": "queries_dependencies",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/StoryReader2D.gd",
+      "target": "res://scripts/data/ChapterData.gd",
+      "relation": "reads_webtoon_panels",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/UI_Overlay.gd",
+      "target": "res://scripts/singletons/ToolBeltManager.gd",
+      "relation": "switches_tools",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/singletons/AudioManager.gd",
+      "target": "res://scripts/audio/ProceduralAudio.gd",
+      "relation": "synthesizes_streams",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/core/PartNode.gd",
+      "target": "res://scripts/singletons/AudioManager.gd",
+      "relation": "triggers_sfx",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    },
+    {
+      "source": "res://scripts/ui/StoryReader2D.gd",
+      "target": "res://scripts/singletons/GameManager.gd",
+      "relation": "triggers_workbench_transition",
+      "_origin": "semantic",
+      "confidence_score": 1.0,
+      "source_file": ""
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "8cba71b2f777c69ec65b0672ea75437c4b1944ab"
+}

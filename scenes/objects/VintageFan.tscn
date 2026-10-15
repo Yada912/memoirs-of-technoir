@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfan8x3q1w9m2"]
+
+[ext_resource type="Script" path="res://scripts/procedural/ProceduralFan.gd" id="1_fan"]
+
+[node name="VintageFan" type="Node3D"]
+script = ExtResource("1_fan")

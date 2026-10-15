@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://testrun82194m"]
+
+[ext_resource type="Script" path="res://tests/test_gameplay_flow.gd" id="1_test"]
+
+[node name="TestRunner" type="Node"]
+script = ExtResource("1_test")
